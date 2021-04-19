@@ -1,0 +1,35 @@
+{
+  "name": "tworks-recruiting-system-server",
+  "version": "1.0.0",
+  "description": "Server project of T-Works recruiting system",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel-node index.js",
+    "dev:start": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harish321/tworks-recruiting-system-server.git"
+  },
+  "keywords": [],
+  "author": "Harish Dhulipalla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harish321/tworks-recruiting-system-server/issues"
+  },
+  "homepage": "https://github.com/Harish321/tworks-recruiting-system-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "read-excel-file": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.15",
+    "babel-loader": "^8.2.2",
+    "nodemon": "^2.0.7"
+  }
+}
