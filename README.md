@@ -2,8 +2,8 @@
 Server project of T-Works recruiting system 
 
 ## Setup
-1. run 'npm install' to load the dependencies
-2. run 'npm run server' to start the server (default port 5000)
+1. run 'npm install' to load the dependencies which are required for the project.
+2. run 'npm run server' to start the server (default port 5000).
 
 ## EndPoints
 1. '[/api/file/upload, POST]' to  upload the excel file
