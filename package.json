@@ -4,7 +4,7 @@
   "description": "Server project of T-Works recruiting system",
   "main": "index.js",
   "scripts": {
-    "devstart": "babel-node index.js",
+    "serve": "npm run build && npm run start",    
     "start": "node ./build",
     "build": "npm run clean && npm run babel-build",
     "babel-build": "babel -d ./build ./src -s",

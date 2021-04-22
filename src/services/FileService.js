@@ -1,11 +1,13 @@
 import readXlsxFile from 'read-excel-file/node';
 import convertToJson from "read-excel-file/schema";
+import empty from "./uploads/empty";
 import * as fs from 'fs';
 
 class FileService{
     async uploadFile(req,res){
         let file = req.files.candidateList;
-        var uploadPath = __dirname + '/uploads/' + file.name;
+        var uploadFolder = __dirname + '/uploads/';
+        var uploadPath = uploadFolder + file.name;
         var schema = {
             'Name' : { prop: 'name',  type: String},
             'Email': { prop: 'email', type: String},
