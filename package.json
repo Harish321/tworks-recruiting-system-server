@@ -24,6 +24,9 @@
   "homepage": "https://github.com/Harish321/tworks-recruiting-system-server#readme",
   "dependencies": {
     "babel-polyfill": "^6.26.0",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-fileupload": "^1.2.1",
@@ -31,9 +34,5 @@
     "mysql": "^2.18.1",
     "read-excel-file": "^5.1.0"
   },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.7.0"
-  }
+  "devDependencies": {}
 }
