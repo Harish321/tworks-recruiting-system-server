@@ -4,7 +4,7 @@
   "description": "Server project of T-Works recruiting system",
   "main": "index.js",
   "scripts": {
-    "build": "babel-node index.js",
+    "build": "clean",
     "start": "nodemon --exec babel-node index.js",
     "serve": "nodemon --exec babel-node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"

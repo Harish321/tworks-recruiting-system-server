@@ -16,9 +16,9 @@ class ApplicationsService{
         })
         db.query(`SELECT * from applications where batchId = ${batchId}`,(err,result)=>{
             if(err){
-                res.status(500).send(err);
+                return res.status(500).send(err);
             }
-            res.status(200).send({
+            return res.status(200).send({
                 batchId:batchId,
                 rows:result
             })
