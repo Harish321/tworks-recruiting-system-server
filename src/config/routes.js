@@ -1,5 +1,5 @@
-import ApplicationsController from "../src/controller/ApplicationsController";
-import fileController from "../src/controller/FileController";
+import ApplicationsController from "../controller/ApplicationsController";
+import fileController from "../controller/FileController";
 
 export default (server) => {
 

@@ -1,4 +1,4 @@
-import db from '../../config/database'
+import db from '../config/database'
 import application from '../model/application'
 class ApplicationsService{
     async create(req,res){
