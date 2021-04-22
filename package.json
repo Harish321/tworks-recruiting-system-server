@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "devstart": "babel-node index.js",
-    "start": "npm run build && node ./build",
+    "start": "node ./build",
     "build": "npm run clean && npm run babel-build",
     "babel-build": "babel -d ./build ./src -s",
     "clean": "rm -rf build && mkdir build",
